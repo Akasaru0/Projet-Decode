@@ -2,6 +2,7 @@
 import sys
 
 
+
 def help():
     #To default, It's the English Help page
     if len(sys.argv)== 2:
@@ -23,7 +24,9 @@ def help():
             print (file_contents)
             f.close()
         
-
+def version():
+    version = "B.1"
+    print(f"The current version is {version}")
 
 def decode_hexa():
     a = arg_hexa
@@ -40,6 +43,8 @@ else:
     #There is the test for the arg help
     if sys.argv[1] == "help":
         help()
+    elif sys.argv[1]== "version":
+        version()
     else:
         text = sys.argv[1]
         if text.startswith(":") == False:
