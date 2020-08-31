@@ -1,0 +1,12 @@
+Usage: ./decode :[HASH] [options]
+/!\ The hash need to start with :
+
+Options:
+    :[HASH] : Declare a Hash.
+    -d : Decode the hash
+        -dh: Decode the hash in hexa
+    -e : Encode the hash
+
+
+Contact:
+If you want to contact us, This is our mail : decodeprojet@protonmail.com
